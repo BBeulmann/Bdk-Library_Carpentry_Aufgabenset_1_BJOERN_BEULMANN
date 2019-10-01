@@ -1,6 +1,6 @@
 ## 1. Text-Editor der Wahl
 
-Ihre Antwort
+Gewählt wurde ATOM in der Version 1.40.1
 
 ## 2. Eine Python-Bibliothek
 
