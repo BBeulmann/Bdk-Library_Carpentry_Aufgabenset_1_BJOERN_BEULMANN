@@ -11,7 +11,29 @@ Gewählt wurde ATOM in der Version 1.40.1
 
 ## 3. Eine Fehlermeldung und Ihre Lösung
 
+### Aufgetretener Fehler:
 
+NameError                                 Traceback (most recent call last)
+<ipython-input-4-c81f64490007> in <module>
+----> 1 for PMID in PMIDs:
+      2     full_url = base_url + PMID
+      3     PMID_json_data = urllib.request.urlopen(full_url).read()
+      4     PMID_data = json.loads(PMID_json_data)
+      5     print("TITEL:            " + PMID_data ["result"] ["PMID"]["title"])
+
+NameError: name 'PMIDs' is not defined
+
+### Problem:
+
+Die zuvor in einer Liste angegebenen Pub-Med-IDs können nicht abgerufen werden, da das Programm nicht weiß, worum es sich bei der bloßen Bezeichnung "PMID" in Zeile 5 handelt.
+
+### Lösung:
+
+ print("TITEL:            " + PMID_data ["result"] [str(PMID)]["title"])
+
+### Begründung:
+
+Die in der Liste als Strings angelegten Pub-Med-IDs werden durch die Verwendung von str() in Zeile 5 als Strings gekennzeichnet. Das Programm erkennt nun, dass es sich bei der Angabe um die Strings aus der Liste in der vorangegangenen Definition handelt und kann diese abrufen.
 
 ## 4. Was ist JupyterLab?
 
