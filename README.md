@@ -13,15 +13,15 @@ Gewählt wurde ATOM in der Version 1.40.1
 
 ### Aufgetretener Fehler:
 
-NameError                                 Traceback (most recent call last)
-<ipython-input-4-c81f64490007> in <module>
-----> 1 for PMID in PMIDs:
-      2     full_url = base_url + PMID
-      3     PMID_json_data = urllib.request.urlopen(full_url).read()
-      4     PMID_data = json.loads(PMID_json_data)
-      5     print("TITEL:            " + PMID_data ["result"] ["PMID"]["title"])
+<p>NameError                                 Traceback (most recent call last) <br>
+<ipython-input-4-c81f64490007> in <module> <br>
+----> 1 for PMID in PMIDs: <br>
+      2     full_url = base_url + PMID <br>
+      3     PMID_json_data = urllib.request.urlopen(full_url).read() <br>
+      4     PMID_data = json.loads(PMID_json_data) <br>
+      5     print("TITEL:            " + PMID_data ["result"] ["PMID"]["title"]) <br>
 
-NameError: name 'PMIDs' is not defined
+NameError: name 'PMIDs' is not defined </p>
 
 ### Problem:
 
