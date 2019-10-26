@@ -50,8 +50,23 @@ Zudem ist JupyterLab eher als IDE konzipiert (vgl. Stack Overflow).
 
 # Aufgabenset 2
 
+
 ## 1. Auswertung der Bibliotheksstatistik am Beispiel der Library of San Francisco
+
 
 ### Fragestellung 1: Welche Altersgruppe der Bibliotheksnutzer und Nutzerinnen ist am stärksten vertreten?
 
 ### Fragestellung 2: Was ist die Höchstzahl aller Checkouts?
+
+Die entsprechende Datei befindet sich in diesem Repositorium unter der Bezeichnung "San_Francisco_Usage.ipynb".
+
+
+## 2. Stellungnahme zu den Ergebnissen
+
+<p>Hinsichtlich der am stärksten vertretenen Altersgruppe könnten sich auf relativ schnelle Art Anregungen für die Bibliothek in Bezug auf deren Bestand und konzeptioneller Ausrichtung finden lassen. So könnte die Bibliothek durch diesen Aspekt nutzerorientiert reagieren. Insbesondere können durch die im Jupyter-Notebook vorangestellten Kohortengrößen über die Zeit Veränderungen einander gegenübergestellt werden. Dies könnte vorallem dann gewichtig sein, wenn eine andere Kohorte an die erste Position rückt. Ebenso könnten Veränderungen innerhalb der am stärksten vertretenen Kohorte verzeichnet werden, so z.B. im Falle eines starken Zuwachses oder eines entsprechenden Rückganges.</p>
+
+<p>Die Fragestellung nach der Höchstzahl aller Checkouts diente dem Interesse an einer Ausgabe dieses Punktes, ohne dabei die grafische Oberfläche des in der Aufgabenstellung bereitgestellten Links zu verwenden.</p>
+
+<p>Generell lässt sich feststellen, dass der Zugriff auf die Daten durch die Bereitstellung des Datensets in verschiedenen Formaten stark begünstigt ist. Besonders die Option, direkt entsprechende APIs nutzen zu können, kommt dem Anwender in Anbetracht der Datenmenge entgegen.</p>
+
+<p>Eine Interpretation der angeforderten Daten ist jedoch nicht vorbehaltlos gewährleistet. So sind zum Beispiel die Klassenbreiten der Altersgruppen unterschiedlich, was eine differenzierte Betrachtungsweise im Rahmen des statistischen Hintergrundes bedingt. Für die Checkouts lassen sich zwar die Zahlen ermitteln, nicht aber ohne Weiteres die Begründung für deren mitunter starke Unterschiede oder teils exsaltierte Summen von mehreren tausend.</p>
