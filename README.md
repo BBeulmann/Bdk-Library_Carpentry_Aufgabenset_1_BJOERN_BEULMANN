@@ -1,3 +1,5 @@
+# Aufgabenset 1
+
 ## 1. Text-Editor der Wahl
 
 Gewählt wurde ATOM in der Version 1.40.1
@@ -45,3 +47,11 @@ Die in der Liste als Strings angelegten Pub-Med-IDs werden durch die Verwendung 
 JupiterLab ist zu bestehenden Jupyter Notebooks vollständig kompatibel, sodass diese in JupyterLab implementiert werden können (vgl. JupyterLab is Ready for Users, in: "Jupyter Blog", URL: https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906).</p>
 
 Zudem ist JupyterLab eher als IDE konzipiert (vgl. Stack Overflow).
+
+# Aufgabenset 2
+
+## 1. Auswertung der Bibliotheksstatistik am Beispiel der Library of San Francisco
+
+### Fragestellung 1: Welche Altersgruppe der Bibliotheksnutzer und Nutzerinnen ist am stärksten vertreten?
+
+### Fragestellung 2: Was ist die Höchstzahl aller Checkouts?
